@@ -31,8 +31,8 @@ public class PartitaTest {
 	}
 
 	@Test
-	public void testStanzaCorrente() {
-		assertEquals("atrio", this.p.getStanzaCorrente().getNome());
+	public void testStanzaIniziale() {
+		assertEquals("atrio", this.p.getLab().getStanzaIniziale().getNome());
 	}
 	@Test 
 	public void testStanzaVincente() {
